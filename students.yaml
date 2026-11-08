@@ -1,0 +1,43 @@
+- name: "shivanand reddy"
+  age: 24
+  dob: "14-09-2001"
+  addresses:
+  #object
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyd
+    pincode: 500045
+    type: current
+
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyd
+    pincode: 500045
+    type: perm
+  skills: 
+  - java
+  - python
+  - devops
+  - cloud
+
+- name: "swetha reddy"
+  age: 25
+  dob: "14-09-2001"
+  addresses:
+  #object
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyd
+    pincode: 500045
+    type: current
+
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyd
+    pincode: 500045
+    type: perm
+  skills: 
+  - java
+  - python
+  - devops
+  - cloud

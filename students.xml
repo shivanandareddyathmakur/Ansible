@@ -1,0 +1,56 @@
+<!-- list of objects -->
+<students>
+    <!-- object -->
+    <student1>
+        <name>shivananda reddy</name>
+        <dob>14-09-2001</dob>
+        <age>21</age>
+        <!-- list of objects -->
+        <addresses>
+            <!-- object -->
+            <address type= "perm">
+                <doorno>1-23</doorno>
+                <street>gandhi nagar</street>
+                <city>hyd</city>
+                <pincode>500087</pincode>
+            </address>
+            <address type= "temp">
+                <doorno>1-23</doorno>
+                <street>gandhi nagar</street>
+                <city>hyd</city>
+                <pincode>500087</pincode>
+            </address>
+        </addresses>
+        <skill>
+            <skill>java</skill>
+            <skill>devops</skill>
+            <skill>cloud</skill>
+    </student1>
+
+    <student2>
+        <name>swetha</name>
+        <dob>14-09-2001</dob>
+        <age>21</age>
+        <!-- list of objects -->
+        <addresses>
+            <!-- object -->
+            <address type= "perm">
+                <doorno>1-23</doorno>
+                <street>gandhi nagar</street>
+                <city>hyd</city>
+                <pincode>500087</pincode>
+            </address>
+            <address type= "temp">
+                <doorno>1-23</doorno>
+                <street>gandhi nagar</street>
+                <city>hyd</city>
+                <pincode>500087</pincode>
+            </address>
+        </addresses>
+        <skill>
+            <skill>java</skill>
+            <skill>devops</skill>
+            <skill>cloud</skill>
+    </student2>
+</students>
+

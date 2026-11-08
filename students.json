@@ -1,0 +1,22 @@
+{
+    "name": "siva",
+    "DOB" : "14-09-2001",
+    "age" : "24",
+    "addresses" : [
+        {
+            "type" : "perm",
+            "doorno" : "1-23",
+            "street" : "gandhi nagar",
+            "city" : "hyd",
+            "pincode" : "500089"
+        },
+        {
+           "type" : "tmp",
+            "doorno" : "1-23",
+            "street" : "gandhi nagar",
+            "city" : "hyd",
+            "pincode" : "500089",
+        }
+    ],
+    "skills" : ["java", "devops", "cloud"]
+}
