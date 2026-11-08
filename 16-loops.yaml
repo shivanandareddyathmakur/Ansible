@@ -11,4 +11,4 @@
     - nginx
     - mysql
     - zip
-    - mongodb
+    - maven
