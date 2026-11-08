@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    number: 100
+    number: 9 #if you give number greaterthan 10 it skips
   tasks:
   - name: to check number is lessthan 10 or not
     ansible.builtin.debug:
