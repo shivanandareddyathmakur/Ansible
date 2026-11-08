@@ -9,6 +9,6 @@
       state: "{{ item.state }}"
     loop:
     - { name: "nginx", state: "latest"} # install use latest
-    - { name: "nginx", state: "absent"} # to uninstall use absent
-    - { name: "nginx", state: "latest"}
-    - { name: "nginx", state: "absent"}
+    - { name: "maven", state: "absent"} # to uninstall use absent
+    - { name: "mysql", state: "latest"}
+    - { name: "zip", state: "absent"}
