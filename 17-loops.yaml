@@ -1,0 +1,14 @@
+- name: install packages
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: install package
+    ansible.builtin.package:
+      name: "{{ item.name }}" #item is reserved
+      state: "{{ item.state }}"
+    loop:
+    - { name: "nginx", state: "latest"} # install use latest
+    - { name: "nginx", state: "absent"} # to uninstall use absent
+    - { name: "nginx", state: "latest"}
+    - { name: "nginx", state: "absent"}
