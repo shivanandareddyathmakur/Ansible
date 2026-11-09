@@ -22,6 +22,7 @@
     - key: environment
       value: dev
     name: "shivananda Reddy"
+    gmail: "SHIVANANDA6300@gamil.com"
   tasks:
   - name: default variable
     ansible.builtin.debug:
@@ -58,3 +59,7 @@
   - name: convert uppercase
     ansible.builtin.debug:
       msg: "{{ name | upper }}"
+
+  - name: convert lowercase
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"
