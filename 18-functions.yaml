@@ -56,5 +56,5 @@
       content: "{{ student_yaml | to_json }}"
 
   - name: convert uppercase
-    ansinble.builtin.debug:
+    ansible.builtin.debug:
       msg: "{{ name | upper }}"
