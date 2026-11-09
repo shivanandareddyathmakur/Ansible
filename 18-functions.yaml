@@ -16,7 +16,7 @@
     tags:
       application: payment
       environment: dev
-    list_Tags:
+    list_tags:
     - key: application
       value: payment
     - key: environment
