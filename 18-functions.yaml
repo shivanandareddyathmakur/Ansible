@@ -84,7 +84,7 @@
   - name: redirect the output
     ansible.builtin.command: ls -ltr > /tmp/output.txt # complex commands should use ansible.builtin.shell
     register: redirect_output
-    ignore_errors: true
+    ignore_errors: true #continue when an error occurs, without this line, ansible automatically stops when an error occurs
   
   - name: print redirect output
     ansible.builtin.debug:
