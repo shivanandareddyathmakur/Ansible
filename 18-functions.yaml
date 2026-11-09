@@ -23,7 +23,7 @@
       value: dev
     name: "shivananda Reddy"
     gmail: "SHIVANANDA6300@gamil.com"
-    ipaddress: 192.0.999.0
+    ipaddress: 192.0.99.0
   tasks:
   - name: default variable
     ansible.builtin.debug:
