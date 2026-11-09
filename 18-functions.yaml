@@ -66,5 +66,5 @@
       msg: "{{ gmail | lower }}"
 
   - name: check Ip is valid or not
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "{{ ipaddress | ansible.utils.ipv4 }}"
