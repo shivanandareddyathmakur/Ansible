@@ -1,7 +1,22 @@
+# - name: functions
+#   hosts: local
+#   connection: local
+
+#   tasks:
+#   - name: default variable
+#     ansible.builtin.debug:
+#       msg: " hello: {{ name | default('ramesh') }}" #default is a function
+
 - name: functions
   hosts: local
   connection: local
+  vars:
+    technologies: Devops, linux, shell, cloud #string
   tasks:
   - name: default variable
     ansible.builtin.debug:
-      msg: " hello: {{ name | default('ramesh') }}"
+      msg: " hello: {{ name | default ('ramesh') }}"
+  #string to list
+  - name: convert string to list
+    ansible.builtin.debug:
+     msg: " technologies are: {{ technologies | split(',') }}"
