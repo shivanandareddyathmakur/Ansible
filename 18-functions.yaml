@@ -21,6 +21,7 @@
       value: payment
     - key: environment
       value: dev
+    name: "shivananda Reddy"
   tasks:
   - name: default variable
     ansible.builtin.debug:
@@ -53,3 +54,7 @@
     ansible.builtin.copy:
       dest: ./student-data.json
       content: "{{ student_yaml | to_json }}"
+
+  - name: convert uppercase
+    ansinble.builtin.debug:
+      msg: "{{ name | upper }}"
